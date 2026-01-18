@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/emg-teaching-platform/',
+  base: '/EMG_Teaching/',  // ← FIXED: Must match GitHub repo name
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
